@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{387607da-2582-4f21-8d2a-bef077137a94}">
+		<property name="name">
+			<value>Grass</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8b0036f9-110e-4e3a-b32c-317bd6d40ecc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8b0036f9-110e-4e3a-b32c-317bd6d40ecc}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{14364da1-5a95-4132-910d-c64c69571acf}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>amb_weather</value>
 		</property>
@@ -46,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{a6e097b3-02e7-4ee8-b983-c36d48ec39b0}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{36c34656-2f41-426c-bbd7-923e4b42929e}</destination>
 		</relationship>
@@ -53,7 +59,7 @@
 			<destination>{c6785271-da0a-4486-ab99-19eb7b00fe09}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{c66c5a8b-06d5-45bf-8ea3-06de05df014f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8c12f0a6-6597-4383-9893-b9a9bd3eaf7f}" />

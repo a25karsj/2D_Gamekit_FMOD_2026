@@ -223,13 +223,13 @@
 	</object>
 	<object class="MultibandEqEffect" id="{4248b2cb-ff35-4a48-91eb-257d167208b7}">
 		<property name="frequencyA">
-			<value>12063.5361</value>
+			<value>3408.66455</value>
 		</property>
 		<property name="frequencyB">
 			<value>38.8125801</value>
 		</property>
 		<property name="qualityA">
-			<value>0.35335651</value>
+			<value>0.808191359</value>
 		</property>
 		<property name="qualityB">
 			<value>8.08695698</value>

@@ -56,7 +56,7 @@
 			<destination>{fef708a5-421e-4f81-b399-6e940b58ec7c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c66c5a8b-06d5-45bf-8ea3-06de05df014f}</destination>
+			<destination>{f73c1b22-0dd1-4f2c-b2f0-bbfdbed39082}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f9670fda-493c-4df5-95df-959b4dfd1300}" />
@@ -72,6 +72,9 @@
 	<object class="Timeline" id="{19e4aca2-f6d0-4cc6-9e61-035079744bd1}">
 		<relationship name="modules">
 			<destination>{8e0d74b5-361e-49cb-8274-153625e1ce00}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{5719a125-7a5c-48ca-9194-69b8e090226f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3eab9859-8431-4a5a-9fd0-7f23a6f74d6b}">
@@ -96,9 +99,6 @@
 	<object class="MixerBusPanner" id="{fef708a5-421e-4f81-b399-6e940b58ec7c}" />
 	<object class="SingleSound" id="{8e0d74b5-361e-49cb-8274-153625e1ce00}">
 		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="isCutoff">
 			<value>true</value>
 		</property>
 		<property name="length">
@@ -126,6 +126,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{3eab9859-8431-4a5a-9fd0-7f23a6f74d6b}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{5719a125-7a5c-48ca-9194-69b8e090226f}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>14.999999999999998</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{19e4aca2-f6d0-4cc6-9e61-035079744bd1}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{4dbc388b-c756-4782-9c38-ef4fc30ffc3f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{bbeba9ed-0b93-473a-bdb9-28a293914cd4}">

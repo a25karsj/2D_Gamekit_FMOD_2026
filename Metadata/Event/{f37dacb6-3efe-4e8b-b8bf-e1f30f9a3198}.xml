@@ -141,7 +141,6 @@
 		<relationship name="effects">
 			<destination>{e18c3472-7454-4355-acea-65014e3e0ba6}</destination>
 			<destination>{05ffef2b-3a11-4aa3-a96c-dc561558f63e}</destination>
-			<destination>{89b97ab9-767d-4ee1-86ad-1483a8fb4f81}</destination>
 			<destination>{ea229619-0803-43e2-92a0-703313687b3b}</destination>
 		</relationship>
 	</object>
@@ -156,20 +155,12 @@
 			<value>49</value>
 		</property>
 	</object>
-	<object class="PitchShifterEffect" id="{89b97ab9-767d-4ee1-86ad-1483a8fb4f81}">
-		<property name="fftSize">
-			<value>1340</value>
-		</property>
-		<property name="overlap">
-			<value>20.2000008</value>
-		</property>
-	</object>
 	<object class="MultibandEqEffect" id="{ea229619-0803-43e2-92a0-703313687b3b}">
 		<property name="frequencyA">
-			<value>7825.21973</value>
+			<value>1314.21655</value>
 		</property>
 		<property name="qualityA">
-			<value>6</value>
+			<value>0.205565214</value>
 		</property>
 	</object>
 </objects>

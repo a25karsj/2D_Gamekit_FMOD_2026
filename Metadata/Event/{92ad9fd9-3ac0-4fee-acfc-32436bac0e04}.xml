@@ -167,7 +167,8 @@
 			<destination>{f8c6ff73-ab30-46f3-8eda-08a83fd79547}</destination>
 			<destination>{319a26a8-185f-4053-9abd-77b17b20299a}</destination>
 			<destination>{705f84c8-1fb4-4806-9fac-f70f22513a4a}</destination>
-			<destination>{4248b2cb-ff35-4a48-91eb-257d167208b7}</destination>
+			<destination>{03bf5550-5b34-4c68-8c3b-1a0537b20773}</destination>
+			<destination>{41040dfc-0444-4f49-ba12-19814dc74669}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aef8c3c4-d69b-48f2-91e8-02067c6b0cb7}" />
@@ -221,18 +222,41 @@
 			<value>3</value>
 		</property>
 	</object>
-	<object class="MultibandEqEffect" id="{4248b2cb-ff35-4a48-91eb-257d167208b7}">
-		<property name="frequencyA">
-			<value>3408.66455</value>
+	<object class="ThreeEQEffect" id="{03bf5550-5b34-4c68-8c3b-1a0537b20773}">
+		<property name="lowGain">
+			<value>-12</value>
 		</property>
-		<property name="frequencyB">
-			<value>38.8125801</value>
+		<property name="midGain">
+			<value>10</value>
 		</property>
-		<property name="qualityA">
-			<value>0.808191359</value>
+		<property name="highGain">
+			<value>10</value>
 		</property>
-		<property name="qualityB">
-			<value>8.08695698</value>
+		<property name="lowCrossover">
+			<value>10</value>
+		</property>
+		<property name="highCrossover">
+			<value>22000</value>
+		</property>
+		<property name="crossoverSlope">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{41040dfc-0444-4f49-ba12-19814dc74669}">
+		<property name="threshold">
+			<value>-17</value>
+		</property>
+		<property name="ratio">
+			<value>1.80000007</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>4900</value>
+		</property>
+		<property name="gain">
+			<value>9.5</value>
 		</property>
 	</object>
 </objects>

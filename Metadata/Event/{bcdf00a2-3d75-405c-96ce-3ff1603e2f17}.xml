@@ -95,6 +95,9 @@
 		<property name="isAsync">
 			<value>true</value>
 		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>15</value>
 		</property>
@@ -106,6 +109,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2aa8b591-f77e-48ef-95ab-0eba68fa951b}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -129,9 +135,24 @@
 	<object class="MixerBusEffectChain" id="{d25868a6-2fb9-4383-b74f-865b2d61895c}">
 		<relationship name="effects">
 			<destination>{71005ac2-f13e-4d53-bdec-03bca87d7d30}</destination>
+			<destination>{9da7d17a-bb84-4973-bae3-401a430bdc93}</destination>
+			<destination>{f8052bcf-8d66-4a0d-85ba-960a6d0a24b1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{38b34a92-8f7a-4e26-86df-e4a34e9f9424}" />
 	<object class="MixerBusFader" id="{ddbb0c90-c6ab-470d-ba93-a1b8e0def14f}" />
 	<object class="MixerBusFader" id="{71005ac2-f13e-4d53-bdec-03bca87d7d30}" />
+	<object class="FlangerEffect" id="{9da7d17a-bb84-4973-bae3-401a430bdc93}">
+		<property name="rate">
+			<value>0.539999962</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{f8052bcf-8d66-4a0d-85ba-960a6d0a24b1}">
+		<property name="frequencyA">
+			<value>1616.77271</value>
+		</property>
+		<property name="qualityA">
+			<value>0.85316515</value>
+		</property>
+	</object>
 </objects>

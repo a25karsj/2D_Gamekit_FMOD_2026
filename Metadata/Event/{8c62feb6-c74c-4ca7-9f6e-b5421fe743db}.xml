@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8c62feb6-c74c-4ca7-9f6e-b5421fe743db}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>ominous_ambiance</value>
 		</property>
@@ -53,7 +56,7 @@
 			<destination>{5f464be9-e1bf-4dd9-a054-bd21f6283ae0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{c66c5a8b-06d5-45bf-8ea3-06de05df014f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9d03dd7e-d5af-4657-8273-3ba31026edc1}" />

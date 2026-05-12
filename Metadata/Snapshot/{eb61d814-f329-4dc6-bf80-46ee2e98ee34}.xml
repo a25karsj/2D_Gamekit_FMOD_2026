@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{eb61d814-f329-4dc6-bf80-46ee2e98ee34}">
+		<property name="name">
+			<value>Default</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{6cb736fa-6bfd-4251-925e-40a5d21b2afb}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{a8a3a825-627c-4c28-88c3-c45d13b74e05}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{90f17e97-9f3f-495e-8dd4-298b7e3b91d0}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{105dce4d-59be-4471-b8f3-54e2b982c06a}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{6cb736fa-6bfd-4251-925e-40a5d21b2afb}" />
+	<object class="MarkerTrack" id="{a8a3a825-627c-4c28-88c3-c45d13b74e05}" />
+	<object class="Timeline" id="{90f17e97-9f3f-495e-8dd4-298b7e3b91d0}" />
+	<object class="SnapshotMasterTrack" id="{105dce4d-59be-4471-b8f3-54e2b982c06a}" />
+</objects>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{40c02c9d-67e5-4a31-bdb6-c8635c612e5c}">
 		<property name="color">
-			<value>Magenta</value>
+			<value>Yellow Light 2</value>
 		</property>
 		<property name="name">
 			<value>player_footstep_better</value>
@@ -53,6 +53,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{eba1bb9a-92dc-44b6-9ce3-905395c85345}">
+		<property name="color">
+			<value>Yellow Light 2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{58f9d7dc-c540-4a93-bcf7-9b6b1a2841d8}</destination>
 		</relationship>

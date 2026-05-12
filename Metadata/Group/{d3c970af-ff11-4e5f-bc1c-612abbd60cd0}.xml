@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{d3c970af-ff11-4e5f-bc1c-612abbd60cd0}">
+		<property name="color">
+			<value>Yellow Light 2</value>
+		</property>
 		<property name="volume">
 			<value>10</value>
 		</property>
@@ -20,10 +23,8 @@
 	<object class="MixerBusEffectChain" id="{6621f865-9a7e-4f16-9ceb-4e1247edac87}">
 		<relationship name="effects">
 			<destination>{594d0740-079f-4c11-9d93-840b4ff68604}</destination>
-			<destination>{872875a8-4957-4db1-9120-566a498b1ad7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5fbe8c49-cc6d-4091-9f64-44a6796ff9e1}" />
 	<object class="MixerBusFader" id="{594d0740-079f-4c11-9d93-840b4ff68604}" />
-	<object class="SFXReverbEffect" id="{872875a8-4957-4db1-9120-566a498b1ad7}" />
 </objects>

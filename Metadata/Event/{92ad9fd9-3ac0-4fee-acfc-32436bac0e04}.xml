@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{92ad9fd9-3ac0-4fee-acfc-32436bac0e04}">
 		<property name="color">
-			<value>Magenta</value>
+			<value>Yellow Light 2</value>
 		</property>
 		<property name="name">
 			<value>PlayerAttackRanged</value>
@@ -49,6 +49,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{59fb01de-6128-4a25-b6ba-c422c6c4c8b0}">
+		<property name="color">
+			<value>Yellow Light 2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{584ac00d-30d6-4350-ab65-863e4803475c}</destination>
 		</relationship>

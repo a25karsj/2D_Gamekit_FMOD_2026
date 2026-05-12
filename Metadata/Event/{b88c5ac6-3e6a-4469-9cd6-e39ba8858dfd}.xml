@@ -166,7 +166,7 @@
 	</object>
 	<object class="PitchShifterEffect" id="{948e46a8-baa4-4c4f-aa50-7ac4a893ef1d}">
 		<property name="pitch">
-			<value>0.729999959</value>
+			<value>0.979999959</value>
 		</property>
 		<property name="fftSize">
 			<value>1020</value>

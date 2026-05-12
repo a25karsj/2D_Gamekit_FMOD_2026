@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{c69630e4-7c12-4508-bbdc-9838b9cb0084}">
+		<property name="name">
+			<value>Outdoor_HalfCave_Snapshot</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{cf6fa574-15a6-418b-a5cd-cd7d92939021}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{d4bce908-38a5-49df-bc7f-ebf3813e5303}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{e3d06ce4-9fec-48b7-bf81-b5d0f7e86a6c}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{f3b3f330-0daa-4a61-ac09-5730ab64a36b}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{14b814fb-1a91-45cf-90ef-f7e72c61f420}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{d4bce908-38a5-49df-bc7f-ebf3813e5303}" />
+	<object class="MarkerTrack" id="{e3d06ce4-9fec-48b7-bf81-b5d0f7e86a6c}" />
+	<object class="Timeline" id="{f3b3f330-0daa-4a61-ac09-5730ab64a36b}" />
+	<object class="SnapshotMasterTrack" id="{14b814fb-1a91-45cf-90ef-f7e72c61f420}" />
+</objects>

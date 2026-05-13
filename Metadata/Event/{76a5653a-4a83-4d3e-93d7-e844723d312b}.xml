@@ -31,6 +31,9 @@
 		<relationship name="parameters">
 			<destination>{b3b56948-2187-4d67-8bd2-c67aa642bd08}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{0e41109f-2d01-4da2-8a51-0de32d7fc467}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{f6b2e112-bd77-40e3-9369-cf934681240c}">
 		<relationship name="masterBus">
@@ -55,7 +58,7 @@
 			<destination>{e14549b2-41d3-463d-9a80-932f90524977}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{76eb7992-ebe5-450f-ba59-e3f4837ae4e8}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{13096a58-64eb-441a-93b6-083e5a84d499}" />
@@ -83,6 +86,9 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{e4b5980e-567b-4e5e-83d0-9ca3d8418a66}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>2</value>
 		</property>
@@ -91,11 +97,17 @@
 		</relationship>
 	</object>
 	<object class="EventSound" id="{e815f033-9fbd-41d7-afa9-ea2a047c3371}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<relationship name="event">
 			<destination>{14364da1-5a95-4132-910d-c64c69571acf}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{94272a42-6de2-466c-9e61-f28b1e1a76b3}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>

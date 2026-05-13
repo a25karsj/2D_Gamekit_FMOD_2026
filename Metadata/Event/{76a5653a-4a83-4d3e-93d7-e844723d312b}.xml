@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{76a5653a-4a83-4d3e-93d7-e844723d312b}">
+		<property name="color">
+			<value>Purple</value>
+		</property>
 		<property name="name">
 			<value>amb_manager</value>
 		</property>

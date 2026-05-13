@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f0df6bbc-cf78-4748-b7ad-98aaa99cad6f}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>Acid_Pool_Splash</value>
 		</property>

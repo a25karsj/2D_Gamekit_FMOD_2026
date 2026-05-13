@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{d12663cc-385c-43ef-aabb-8d51dbf42c1a}">
 		<property name="volume">
-			<value>-2.5</value>
+			<value>9.5</value>
 		</property>
 		<property name="name">
 			<value>player_footstep_better</value>
@@ -20,10 +20,8 @@
 	<object class="MixerBusEffectChain" id="{a3811648-3902-4251-9639-00bfb281bbc1}">
 		<relationship name="effects">
 			<destination>{ec381d5a-f6c7-4623-9a06-7b784c5e6c7a}</destination>
-			<destination>{11d72b27-1bd0-42c3-bddc-6dbadae3e33f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d5478e94-fe3d-4e08-bbbd-a674c9394ed3}" />
 	<object class="MixerBusFader" id="{ec381d5a-f6c7-4623-9a06-7b784c5e6c7a}" />
-	<object class="SFXReverbEffect" id="{11d72b27-1bd0-42c3-bddc-6dbadae3e33f}" />
 </objects>

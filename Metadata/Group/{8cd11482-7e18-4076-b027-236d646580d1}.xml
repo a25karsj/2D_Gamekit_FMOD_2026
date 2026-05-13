@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{8cd11482-7e18-4076-b027-236d646580d1}">
+		<property name="volume">
+			<value>6</value>
+		</property>
+		<property name="name">
+			<value>player_attack_ranged</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2883653a-8b66-4469-9c61-2dfef9bd2860}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e1607aca-168a-4f00-8267-6e381a8bc105}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d3c970af-ff11-4e5f-bc1c-612abbd60cd0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2883653a-8b66-4469-9c61-2dfef9bd2860}">
+		<relationship name="effects">
+			<destination>{4d710d8d-b049-45a6-8528-d7fbf7e7c0ba}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e1607aca-168a-4f00-8267-6e381a8bc105}" />
+	<object class="MixerBusFader" id="{4d710d8d-b049-45a6-8528-d7fbf7e7c0ba}" />
+</objects>

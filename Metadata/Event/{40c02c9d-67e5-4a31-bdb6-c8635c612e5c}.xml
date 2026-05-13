@@ -161,8 +161,11 @@
 			<value>2</value>
 		</property>
 		<property name="volume">
-			<value>-17</value>
+			<value>-2</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{d5091b1a-bb3d-4d72-9769-40cb104ba868}</destination>
+		</relationship>
 		<relationship name="sounds">
 			<destination>{af418810-e663-4791-96c1-c5ec46bdfd0e}</destination>
 			<destination>{fd5a5ae2-b697-48a4-a677-436904207b77}</destination>
@@ -297,6 +300,14 @@
 		<relationship name="audioFile">
 			<destination>{c62dc5de-4ef4-4ade-91cf-6cf5efcf9668}</destination>
 		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{d5091b1a-bb3d-4d72-9769-40cb104ba868}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>26.5</value>
+		</property>
 	</object>
 	<object class="SingleSound" id="{af418810-e663-4791-96c1-c5ec46bdfd0e}">
 		<relationship name="audioFile">

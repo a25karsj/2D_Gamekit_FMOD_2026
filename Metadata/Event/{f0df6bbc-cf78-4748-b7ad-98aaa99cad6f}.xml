@@ -5,7 +5,7 @@
 			<value>Acid_Pool_Splash</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{8d08a9b2-3e2b-4678-afc5-79cdeb225e6f}</destination>
@@ -56,7 +56,11 @@
 			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{aeb80508-f169-4e3a-ad87-676e1f14903d}" />
+	<object class="EventAutomatableProperties" id="{aeb80508-f169-4e3a-ad87-676e1f14903d}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{581f99d6-141c-43bc-b9a5-121b6c17c957}" />
 	<object class="GroupTrack" id="{8b64ac4f-318c-499d-9549-83560ab006fa}">
 		<relationship name="modules">
@@ -113,6 +117,7 @@
 	<object class="MixerBusEffectChain" id="{f6292e55-34cb-4bab-940c-38ebc3dfa634}">
 		<relationship name="effects">
 			<destination>{9f631fcc-0e6d-49ad-b9db-8ad03db4a8d2}</destination>
+			<destination>{1030dd8c-d0ee-444b-837f-6e140d7e2bac}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e3ae6769-3e6e-4dd0-a1fb-38a62827aa1f}" />
@@ -126,6 +131,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{0111de0d-b4b3-4cac-a4d8-61f0e8432cc2}" />
 	<object class="MixerBusFader" id="{9f631fcc-0e6d-49ad-b9db-8ad03db4a8d2}" />
+	<object class="SpatialiserEffect" id="{1030dd8c-d0ee-444b-837f-6e140d7e2bac}" />
 	<object class="MixerBusFader" id="{de33d6e2-2e26-4719-a149-c1cf7af3303e}" />
 	<object class="ThreeEQEffect" id="{c7bd97c9-6d8d-4ed7-81fc-16373893f77e}">
 		<property name="lowGain">

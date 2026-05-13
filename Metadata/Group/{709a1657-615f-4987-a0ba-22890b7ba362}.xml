@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{709a1657-615f-4987-a0ba-22890b7ba362}">
+		<property name="name">
+			<value>player_attack_melee</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5081c26b-c51b-4bf0-869d-c1041c40f19d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{374ac99d-7931-4426-a332-9165c991c498}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5081c26b-c51b-4bf0-869d-c1041c40f19d}">
+		<relationship name="effects">
+			<destination>{5b3a0d2b-23f7-4bbb-955c-e58c2c850811}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{374ac99d-7931-4426-a332-9165c991c498}" />
+	<object class="MixerBusFader" id="{5b3a0d2b-23f7-4bbb-955c-e58c2c850811}" />
+</objects>

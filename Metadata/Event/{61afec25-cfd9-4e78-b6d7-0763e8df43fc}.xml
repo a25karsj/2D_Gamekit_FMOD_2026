@@ -2821,7 +2821,7 @@
 	</object>
 	<object class="GainEffect" id="{15c8db56-32b1-4020-82c7-c6f761a8fcb2}">
 		<property name="gain">
-			<value>6</value>
+			<value>-11</value>
 		</property>
 	</object>
 	<object class="CompressorEffect" id="{6c55d79d-2e0a-404c-a875-78d1f7fd1d19}">

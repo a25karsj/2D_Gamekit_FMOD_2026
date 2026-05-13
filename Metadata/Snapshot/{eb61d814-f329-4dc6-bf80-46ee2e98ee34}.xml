@@ -19,9 +19,49 @@
 		<relationship name="snapshotMasterTrack">
 			<destination>{105dce4d-59be-4471-b8f3-54e2b982c06a}</destination>
 		</relationship>
+		<relationship name="snapshotProperties">
+			<destination>{f41b2593-9e80-4e4a-9fde-4217efabf849}</destination>
+			<destination>{968dbc5d-78ed-45c5-915a-0fe0924e4797}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{1a7e8d7e-a1fe-4ef4-bafa-324bc37e1214}</destination>
+			<destination>{831c1656-0871-4602-aff1-d152d42222ab}</destination>
+		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6cb736fa-6bfd-4251-925e-40a5d21b2afb}" />
 	<object class="MarkerTrack" id="{a8a3a825-627c-4c28-88c3-c45d13b74e05}" />
 	<object class="Timeline" id="{90f17e97-9f3f-495e-8dd4-298b7e3b91d0}" />
 	<object class="SnapshotMasterTrack" id="{105dce4d-59be-4471-b8f3-54e2b982c06a}" />
+	<object class="SnapshotProperty" id="{f41b2593-9e80-4e4a-9fde-4217efabf849}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-39</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{2be79a5a-885e-4e48-b41b-9e5fe4061459}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{968dbc5d-78ed-45c5-915a-0fe0924e4797}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-40</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{c4fde317-2f9f-4475-8ab3-abac3be55dd5}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{1a7e8d7e-a1fe-4ef4-bafa-324bc37e1214}">
+		<relationship name="mixerStrip">
+			<destination>{2be79a5a-885e-4e48-b41b-9e5fe4061459}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{831c1656-0871-4602-aff1-d152d42222ab}">
+		<relationship name="mixerStrip">
+			<destination>{c4fde317-2f9f-4475-8ab3-abac3be55dd5}</destination>
+		</relationship>
+	</object>
 </objects>

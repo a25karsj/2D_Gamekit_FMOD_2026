@@ -5,7 +5,7 @@
 			<value>Acid Pool_Loop</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{4b206212-12b1-47b1-a7d4-dc34dd6233fc}</destination>
@@ -53,7 +53,7 @@
 			<destination>{a5598b95-cfc4-408b-a220-26500994e15c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{f3cfbd28-8062-4e8e-8aa9-093aeb889ab5}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{16b8c90f-f090-4083-86e3-44ba9ced9215}" />
@@ -92,11 +92,20 @@
 	</object>
 	<object class="MixerBusPanner" id="{a5598b95-cfc4-408b-a220-26500994e15c}" />
 	<object class="SingleSound" id="{c6d849d9-d384-42be-9227-b1292615e999}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>30.002666666666666</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>0.5</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{7b5bccea-a7be-4931-a280-c097d070d917}</destination>
@@ -141,6 +150,7 @@
 			<destination>{159d7c8d-15fe-4f92-9678-07f8fc2a7282}</destination>
 			<destination>{4244ee86-e7c0-4a56-a816-ef6c905461b5}</destination>
 			<destination>{9051aab6-92db-433d-9372-b3da64ee0988}</destination>
+			<destination>{a3da96d9-9d8f-44f0-8e45-f88271d2dc58}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8b3aacb2-e788-49e8-a6df-6016430af249}" />
@@ -181,6 +191,7 @@
 			<value>10</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{a3da96d9-9d8f-44f0-8e45-f88271d2dc58}" />
 	<object class="AutomationPoint" id="{a6ab0b0a-23e0-4810-bd92-16356ab44eaa}">
 		<property name="position">
 			<value>0</value>

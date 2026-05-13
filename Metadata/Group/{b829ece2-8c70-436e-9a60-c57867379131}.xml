@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{b829ece2-8c70-436e-9a60-c57867379131}">
+		<property name="name">
+			<value>wall_crumbling</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2b0662a0-bbca-40c7-bb7b-c1551c12eb5d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8f8d5fca-dce2-4da3-94b5-b461309c284c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1fe032cf-899f-480c-99e8-0d5e4ae24ea6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2b0662a0-bbca-40c7-bb7b-c1551c12eb5d}">
+		<relationship name="effects">
+			<destination>{dfa2cad1-56e1-463e-af0a-671a594b93cf}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8f8d5fca-dce2-4da3-94b5-b461309c284c}" />
+	<object class="MixerBusFader" id="{dfa2cad1-56e1-463e-af0a-671a594b93cf}" />
+</objects>

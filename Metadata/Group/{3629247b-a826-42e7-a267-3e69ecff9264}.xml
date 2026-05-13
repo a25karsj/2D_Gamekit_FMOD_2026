@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{3629247b-a826-42e7-a267-3e69ecff9264}">
+		<property name="name">
+			<value>ambiance_leaves_rattling</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{77cc8f37-a3c9-4a34-bf2d-ff524fa3a730}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cd15cea2-5a44-44a0-9eea-68f4224bf11b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c66c5a8b-06d5-45bf-8ea3-06de05df014f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{77cc8f37-a3c9-4a34-bf2d-ff524fa3a730}">
+		<relationship name="effects">
+			<destination>{c90c7d1b-c17a-456c-8929-4faa885d912b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cd15cea2-5a44-44a0-9eea-68f4224bf11b}" />
+	<object class="MixerBusFader" id="{c90c7d1b-c17a-456c-8929-4faa885d912b}" />
+</objects>

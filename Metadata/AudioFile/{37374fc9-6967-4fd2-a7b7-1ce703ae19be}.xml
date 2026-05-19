@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{37374fc9-6967-4fd2-a7b7-1ce703ae19be}">
 		<property name="assetPath">
-			<value>851916__coghezzi__derelict-spaceship-engine-rustbound-reactor-02-loop.wav</value>
+			<value>Ambience/Engine_Ambiance.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

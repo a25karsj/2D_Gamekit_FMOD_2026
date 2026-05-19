@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{42b23acc-1a71-4afd-8cb4-38c7fdec7467}">
 		<property name="assetPath">
-			<value>1178__nicstage__guitar-string-ominous.wav</value>
+			<value>Ambience/Ominous_Sound.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

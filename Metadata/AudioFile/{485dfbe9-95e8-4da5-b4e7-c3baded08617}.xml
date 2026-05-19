@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{485dfbe9-95e8-4da5-b4e7-c3baded08617}">
 		<property name="assetPath">
-			<value>WEAPArmr_Metal Armour Movement Rattle 07_NN_NTG 5.wav</value>
+			<value>Footsteps/WEAPArmr_Metal Armour Movement Rattle 07_NN_NTG 5.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{bdbaa6e9-3f60-4f91-8f39-e9d560c3bf7c}">
 		<property name="assetPath">
-			<value>797850__randbsoundbites__character-damage-and-other-physical-exertion.wav</value>
+			<value>Player/Player_Damage.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

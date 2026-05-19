@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{72c4ac93-d32f-46d4-89e2-22a5341ac777}">
 		<property name="assetPath">
-			<value>391919__trancox__piedradesmoronandose.wav</value>
+			<value>Feedback Sounds/Rock_Crumble.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

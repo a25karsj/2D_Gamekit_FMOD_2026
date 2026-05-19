@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{1bf3d69a-da1f-4d81-87f4-4ad9d084b946}">
 		<property name="assetPath">
-			<value>176107__lukeirl__32_bubblepool_dallol.wav</value>
+			<value>Ambience/Acid_Pool.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

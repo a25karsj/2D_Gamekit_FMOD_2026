@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{fdcb9ef0-5ad5-4fa7-b2da-106179599183}">
 		<property name="assetPath">
-			<value>569786__taure__spooky-leaves-and-wind.wav</value>
+			<value>Ambience/Cave_Ambiance_2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

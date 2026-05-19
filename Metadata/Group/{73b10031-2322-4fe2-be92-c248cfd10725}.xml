@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{73b10031-2322-4fe2-be92-c248cfd10725}">
+		<property name="name">
+			<value>Enemy_Spit</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{60732d65-9790-4a83-a0eb-993774d827d3}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{c9d151cf-c13d-4ed8-8501-f8f9637ac03b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{fbc0b4c9-a545-47a9-b012-c78763f617e0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{60732d65-9790-4a83-a0eb-993774d827d3}">
+		<relationship name="effects">
+			<destination>{1dc82489-8080-42dc-a7f3-ae1673912e09}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{c9d151cf-c13d-4ed8-8501-f8f9637ac03b}" />
+	<object class="MixerBusFader" id="{1dc82489-8080-42dc-a7f3-ae1673912e09}" />
+</objects>

@@ -5,6 +5,9 @@
 			<value>A one-shot sound that plays when you pick-up extra health.
 </value>
 		</property>
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>Health_Pickup</value>
 		</property>

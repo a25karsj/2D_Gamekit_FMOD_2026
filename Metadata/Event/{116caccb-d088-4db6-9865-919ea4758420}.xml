@@ -5,6 +5,9 @@
 			<value>A one-shot sound for when the door switch is hit.
 </value>
 		</property>
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>Door_Switch</value>
 		</property>

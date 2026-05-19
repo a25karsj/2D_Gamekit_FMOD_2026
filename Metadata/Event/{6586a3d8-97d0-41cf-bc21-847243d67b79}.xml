@@ -89,6 +89,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{4fa6e55f-da30-4f3a-8d48-5f3769264ea2}" />
 	<object class="SingleSound" id="{d653da8f-bb22-438d-b00a-b4ebfc943635}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="length">
 			<value>0.45000000000000001</value>
 		</property>
@@ -96,7 +99,7 @@
 			<value>0.35000000000000003</value>
 		</property>
 		<property name="volume">
-			<value>-8.5</value>
+			<value>-17.5</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{9708ac4a-8318-4201-ac47-e005685a6fac}</destination>

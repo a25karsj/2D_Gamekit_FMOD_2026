@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b4c1dfda-091a-4781-876d-ba10e31258c4}">
+		<property name="note">
+			<value>A one-shot event for when the player lands after jumping in the game.
+</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

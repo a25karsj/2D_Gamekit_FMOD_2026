@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8c62feb6-c74c-4ca7-9f6e-b5421fe743db}">
+		<property name="note">
+			<value>A looping ambiance that plays around the statues to given an eerie feeling.
+</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{92ad9fd9-3ac0-4fee-acfc-32436bac0e04}">
+		<property name="note">
+			<value>A one-shot event for the players ranged attack, with three different variations.</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>
@@ -233,13 +236,10 @@
 	</object>
 	<object class="ThreeEQEffect" id="{03bf5550-5b34-4c68-8c3b-1a0537b20773}">
 		<property name="lowGain">
-			<value>-12</value>
-		</property>
-		<property name="midGain">
-			<value>10</value>
+			<value>-19.5</value>
 		</property>
 		<property name="highGain">
-			<value>10</value>
+			<value>-9.5</value>
 		</property>
 		<property name="lowCrossover">
 			<value>10</value>
@@ -259,7 +259,7 @@
 			<value>1.80000007</value>
 		</property>
 		<property name="attackTime">
-			<value>0.100000001</value>
+			<value>5.80000019</value>
 		</property>
 		<property name="releaseTime">
 			<value>4900</value>

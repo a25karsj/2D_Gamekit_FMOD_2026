@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{22423cee-2671-4098-b896-994c4d299113}">
+		<property name="note">
+			<value>A one-shot sound that plays when you pick-up extra health.
+</value>
+		</property>
 		<property name="name">
 			<value>Health_Pickup</value>
 		</property>

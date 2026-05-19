@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{39d7c801-3b2c-4f65-96ee-b64fbafa96c3}">
+		<property name="note">
+			<value>A oneshot sound for when the stone door opens.
+</value>
+		</property>
 		<property name="name">
 			<value>Door_Open</value>
 		</property>

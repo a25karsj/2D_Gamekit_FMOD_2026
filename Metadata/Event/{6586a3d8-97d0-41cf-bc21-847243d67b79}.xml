@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6586a3d8-97d0-41cf-bc21-847243d67b79}">
+		<property name="note">
+			<value>A one-shot sound that plays when the biting enemy attacks.
+</value>
+		</property>
 		<property name="name">
 			<value>Enemy_Bite</value>
 		</property>

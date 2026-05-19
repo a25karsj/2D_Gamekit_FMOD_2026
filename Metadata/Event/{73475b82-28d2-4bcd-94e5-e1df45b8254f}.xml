@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{73475b82-28d2-4bcd-94e5-e1df45b8254f}">
+		<property name="note">
+			<value>A looping sound for the cave ambiance, with an additional track that includes a windy sound.
+</value>
+		</property>
 		<property name="color">
 			<value>Purple</value>
 		</property>

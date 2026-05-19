@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f37dacb6-3efe-4e8b-b8bf-e1f30f9a3198}">
+		<property name="note">
+			<value>A one-shot event for when the player jumps that includes three different variations.
+</value>
+		</property>
 		<property name="color">
 			<value>Magenta</value>
 		</property>

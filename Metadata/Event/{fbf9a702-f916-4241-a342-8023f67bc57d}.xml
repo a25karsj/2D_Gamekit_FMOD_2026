@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{fbf9a702-f916-4241-a342-8023f67bc57d}">
+		<property name="note">
+			<value>A looping sound that plays when you push the boxes in the game. Includes a discrete parameter with a value from 0-1, with 0 ending the loop and 1 continuing the loop.
+</value>
+		</property>
 		<property name="name">
 			<value>Push_Box</value>
 		</property>

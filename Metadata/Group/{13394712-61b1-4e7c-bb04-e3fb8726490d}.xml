@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{13394712-61b1-4e7c-bb04-e3fb8726490d}">
+		<property name="volume">
+			<value>10</value>
+		</property>
+		<property name="name">
+			<value>acid splash</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ae348236-5931-4cbd-b1d7-ddd1a81a0253}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{63d34a5a-5750-457d-831c-fa4e0d5ec78b}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1fe032cf-899f-480c-99e8-0d5e4ae24ea6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ae348236-5931-4cbd-b1d7-ddd1a81a0253}">
+		<relationship name="effects">
+			<destination>{cb6670e1-2ca7-4f1f-9e34-f860ce421909}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{63d34a5a-5750-457d-831c-fa4e0d5ec78b}" />
+	<object class="MixerBusFader" id="{cb6670e1-2ca7-4f1f-9e34-f860ce421909}" />
+</objects>

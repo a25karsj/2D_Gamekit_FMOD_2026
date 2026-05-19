@@ -56,7 +56,7 @@
 			<destination>{3d0dfabe-39b0-4b48-977c-3e0b3492560d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{13394712-61b1-4e7c-bb04-e3fb8726490d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{aeb80508-f169-4e3a-ad87-676e1f14903d}">
@@ -67,7 +67,7 @@
 	<object class="MarkerTrack" id="{581f99d6-141c-43bc-b9a5-121b6c17c957}" />
 	<object class="GroupTrack" id="{8b64ac4f-318c-499d-9549-83560ab006fa}">
 		<relationship name="modules">
-			<destination>{16223d1b-3e7a-4cd7-bebe-c8726c6c33e8}</destination>
+			<destination>{a559e2b1-de0e-4beb-999b-24af9c6833b8}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{48022fcf-b625-4a9f-8c7c-abbb30302b7d}</destination>
@@ -75,10 +75,13 @@
 	</object>
 	<object class="Timeline" id="{d3249bf4-355f-439e-a912-56ad2d4979a6}">
 		<relationship name="modules">
-			<destination>{16223d1b-3e7a-4cd7-bebe-c8726c6c33e8}</destination>
+			<destination>{a559e2b1-de0e-4beb-999b-24af9c6833b8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8468a622-61d1-43ef-93d4-ec3d82f59c4f}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{f6292e55-34cb-4bab-940c-38ebc3dfa634}</destination>
 		</relationship>
@@ -95,12 +98,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{3d0dfabe-39b0-4b48-977c-3e0b3492560d}" />
-	<object class="SingleSound" id="{16223d1b-3e7a-4cd7-bebe-c8726c6c33e8}">
+	<object class="SingleSound" id="{a559e2b1-de0e-4beb-999b-24af9c6833b8}">
 		<property name="length">
-			<value>0.99858333333333338</value>
+			<value>2.0253968253968253</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{1dbd4fbc-b689-432f-98b5-a94e8672d0ad}</destination>
+			<destination>{e2b41d1e-3843-4372-9579-6eea11cd0e4b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{48022fcf-b625-4a9f-8c7c-abbb30302b7d}">
@@ -138,10 +141,13 @@
 	<object class="MixerBusFader" id="{de33d6e2-2e26-4719-a149-c1cf7af3303e}" />
 	<object class="ThreeEQEffect" id="{c7bd97c9-6d8d-4ed7-81fc-16373893f77e}">
 		<property name="lowGain">
-			<value>-48</value>
+			<value>-36</value>
+		</property>
+		<property name="midGain">
+			<value>-27</value>
 		</property>
 		<property name="highGain">
-			<value>1.5</value>
+			<value>-46</value>
 		</property>
 		<property name="lowCrossover">
 			<value>100</value>

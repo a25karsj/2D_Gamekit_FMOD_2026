@@ -5,7 +5,7 @@
 			<value>Push_Box</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f4e96e-35e1-4ac9-85c2-1d0fbb8067c2}</destination>
@@ -188,7 +188,6 @@
 	<object class="MixerBusEffectChain" id="{d9369a02-f337-4986-9e5b-00812275f0af}">
 		<relationship name="effects">
 			<destination>{5fe20937-8681-48ba-8ed4-9eb4ca35f999}</destination>
-			<destination>{f491bf45-85b0-4e14-95c7-4d4b5ce124e5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2b4ff5dd-45e7-4186-a248-fb3e6439a6ec}" />
@@ -228,7 +227,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{5fe20937-8681-48ba-8ed4-9eb4ca35f999}" />
-	<object class="SpatialiserEffect" id="{f491bf45-85b0-4e14-95c7-4d4b5ce124e5}" />
 	<object class="AutomationPoint" id="{e0e27526-5568-4624-a3ad-1bd772ea86dd}">
 		<property name="position">
 			<value>0.47664399092970522</value>

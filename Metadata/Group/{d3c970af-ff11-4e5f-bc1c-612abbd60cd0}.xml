@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{d3c970af-ff11-4e5f-bc1c-612abbd60cd0}">
+		<property name="note">
+			<value>A mixer group for all the player related sounds like movement, damage taken and the various attacks in the game.</value>
+		</property>
 		<property name="color">
-			<value>Yellow Light 2</value>
+			<value>Green</value>
 		</property>
 		<property name="volume">
 			<value>-4</value>

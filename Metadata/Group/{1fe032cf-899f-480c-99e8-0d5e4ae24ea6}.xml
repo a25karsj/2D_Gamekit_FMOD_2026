@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{1fe032cf-899f-480c-99e8-0d5e4ae24ea6}">
+		<property name="note">
+			<value>A mixer group for all the impact sounds in the game.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

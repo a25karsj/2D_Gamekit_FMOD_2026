@@ -4,9 +4,6 @@
 		<property name="note">
 			<value>An oneshot/feedback sound that plays when you collect one of the keys.</value>
 		</property>
-		<property name="color">
-			<value>Blue</value>
-		</property>
 		<property name="name">
 			<value>ping_sound_cutscene</value>
 		</property>
@@ -59,7 +56,7 @@
 			<destination>{eaedd6ca-d3ad-4df1-a3a9-2175548bdbd5}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{eb715945-6b38-4a23-bb92-0cfc04507f1f}</destination>
+			<destination>{ce9ce326-1d9b-4f24-8230-e5148f493065}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{79a6576b-b992-4e38-a50a-fa31f6d233d5}" />

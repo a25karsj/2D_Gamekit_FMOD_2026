@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{bf2a0e82-2c16-4922-98a8-65a113f1c4ca}">
 		<property name="assetPath">
-			<value>106881__tomlija__200-pounds-stepping-on-a-glass-object.aiff</value>
+			<value>Boss/Boss_Death_Glass.aiff</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

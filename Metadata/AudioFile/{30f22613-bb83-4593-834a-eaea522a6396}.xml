@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{30f22613-bb83-4593-834a-eaea522a6396}">
 		<property name="assetPath">
-			<value>581372__audiotorp__stonedoor_closingwithboom.wav</value>
+			<value>Feedback Sounds/stone_door_close.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

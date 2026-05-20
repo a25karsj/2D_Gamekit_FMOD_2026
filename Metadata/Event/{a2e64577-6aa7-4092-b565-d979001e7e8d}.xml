@@ -11,7 +11,7 @@
 			<value>Enemy_Spit</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{595ae31b-cc95-48f0-adc6-c203d8057ac5}</destination>
@@ -154,6 +154,7 @@
 	<object class="MixerBusEffectChain" id="{dd90dbd2-72fe-4b1b-a441-a0ba2923f04e}">
 		<relationship name="effects">
 			<destination>{6ad205b2-e66d-49b8-812a-ca7c0eccd8a8}</destination>
+			<destination>{faeeb84b-51f2-4778-a611-08a698b05760}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{76328277-f0ed-4b04-92f2-fb7cb5c65f16}" />
@@ -197,4 +198,5 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{6ad205b2-e66d-49b8-812a-ca7c0eccd8a8}" />
+	<object class="SpatialiserEffect" id="{faeeb84b-51f2-4778-a611-08a698b05760}" />
 </objects>

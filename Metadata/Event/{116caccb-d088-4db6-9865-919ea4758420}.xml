@@ -12,7 +12,7 @@
 			<value>Door_Switch</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a1f4e96e-35e1-4ac9-85c2-1d0fbb8067c2}</destination>
@@ -123,6 +123,7 @@
 	<object class="MixerBusEffectChain" id="{2f2bf2ff-c637-4842-bcc3-230cb174e3e1}">
 		<relationship name="effects">
 			<destination>{5d4015fd-3b9f-49ba-968f-2503ca8a4a64}</destination>
+			<destination>{03679969-301a-449d-80fe-713ab17b6574}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b18602e1-8fc2-4d94-af39-0c80d36a1500}" />
@@ -135,6 +136,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{0a164d16-3191-4156-828d-023d93ccce3a}" />
 	<object class="MixerBusFader" id="{5d4015fd-3b9f-49ba-968f-2503ca8a4a64}" />
+	<object class="SpatialiserEffect" id="{03679969-301a-449d-80fe-713ab17b6574}" />
 	<object class="MixerBusFader" id="{863668cc-f5a5-4c05-b37e-0853b1e0d489}" />
 	<object class="SFXReverbEffect" id="{6946ed14-d2d8-430d-b831-2ad72d6d23e3}">
 		<property name="decayTime">

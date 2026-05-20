@@ -12,7 +12,7 @@
 			<value>Enemy_Bite</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{595ae31b-cc95-48f0-adc6-c203d8057ac5}</destination>
@@ -135,6 +135,7 @@
 	<object class="MixerBusEffectChain" id="{0180b011-d467-4a53-aaa8-efe54781e1ee}">
 		<relationship name="effects">
 			<destination>{0260397d-1165-4127-8dfe-3f8345859229}</destination>
+			<destination>{6902be5c-2ae4-4332-a478-556fbad88ae1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9192967e-f197-4e5a-beab-db69ee7b3411}" />
@@ -162,6 +163,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{a0b647da-edd4-43f4-abcb-61489263938c}" />
 	<object class="MixerBusFader" id="{0260397d-1165-4127-8dfe-3f8345859229}" />
+	<object class="SpatialiserEffect" id="{6902be5c-2ae4-4332-a478-556fbad88ae1}" />
 	<object class="AutomationPoint" id="{2aa758c1-0c40-4c8b-b6fc-f60ec5669d67}">
 		<property name="position">
 			<value>0</value>

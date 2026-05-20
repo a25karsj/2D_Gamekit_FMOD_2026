@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{4a2c8b6d-3cac-4baa-87ac-64c31c172221}">
+		<property name="note">
+			<value>The walking sound for the boss</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 2</value>
 		</property>
@@ -93,7 +96,7 @@
 	<object class="MixerBusPanner" id="{e98b7304-8c98-420f-af05-507f980112a8}" />
 	<object class="SingleSound" id="{f432051b-46a6-4e08-8d2f-a320adf2d3f8}">
 		<property name="length">
-			<value>22.206258503401362</value>
+			<value>20</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{4c4eb938-df5e-411f-8567-7bd5c2651cfd}</destination>

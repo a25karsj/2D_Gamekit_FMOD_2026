@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6cb554ce-1923-47e7-92e0-04eabf449482}">
+		<property name="note">
+			<value>A sound event with a parameter for when boss shield is up or down, that plays a one-shot sound when the shield is up.</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 2</value>
 		</property>

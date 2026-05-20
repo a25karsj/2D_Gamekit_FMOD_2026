@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a7f85cc1-36cd-49fb-84a9-5b4090cafadf}">
+		<property name="note">
+			<value>A one-shot event for the boss laser attack.
+</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 2</value>
 		</property>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e5b829fc-24e0-4da2-8a3e-a2f8df3e7007}">
+		<property name="note">
+			<value>A timeline event for the boss death animation that includes three different audio tracks that are synced to the animation.
+</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 2</value>
 		</property>

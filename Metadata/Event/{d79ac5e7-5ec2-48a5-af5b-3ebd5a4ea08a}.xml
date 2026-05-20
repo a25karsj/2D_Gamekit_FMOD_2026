@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d79ac5e7-5ec2-48a5-af5b-3ebd5a4ea08a}">
+		<property name="note">
+			<value>A one-shot event that is used in the timeline for the boss entry in scene 5 in the game.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>
@@ -8,7 +11,7 @@
 			<value>Boss_Shield_oneshot</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ea6515e9-7e0f-4e64-90b1-f5e2df9abfb2}</destination>
@@ -123,11 +126,9 @@
 	<object class="MixerBusEffectChain" id="{6b6ec9c7-8343-4f96-9486-da82623ed15a}">
 		<relationship name="effects">
 			<destination>{210bb7aa-6144-4758-8c24-b7b5af909543}</destination>
-			<destination>{ffdb1ad0-e9c7-4fcf-bef8-9bc141ca88c7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f39f8458-b2e0-4e8f-9fd8-ef1f2f92eb77}" />
 	<object class="MixerBusFader" id="{cc201f44-955e-4e75-9a03-ddca6eb77db1}" />
 	<object class="MixerBusFader" id="{210bb7aa-6144-4758-8c24-b7b5af909543}" />
-	<object class="SpatialiserEffect" id="{ffdb1ad0-e9c7-4fcf-bef8-9bc141ca88c7}" />
 </objects>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5af00db5-06c2-473f-ab3c-eb7d2efeb82d}">
+		<property name="note">
+			<value>A one-shot sound for when the boss takes damage</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 2</value>
 		</property>

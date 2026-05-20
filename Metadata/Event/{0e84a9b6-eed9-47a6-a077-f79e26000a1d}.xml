@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0e84a9b6-eed9-47a6-a077-f79e26000a1d}">
+		<property name="note">
+			<value>A one-shot grenade sound for the boss</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 2</value>
 		</property>

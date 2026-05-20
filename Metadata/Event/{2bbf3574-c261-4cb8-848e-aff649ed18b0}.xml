@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2bbf3574-c261-4cb8-848e-aff649ed18b0}">
+		<property name="note">
+			<value>A sound event that includes a discreet type parameter with the value of 1 and 2 for different stages of the boss steam relase.</value>
+		</property>
 		<property name="color">
 			<value>Blue Light 2</value>
 		</property>

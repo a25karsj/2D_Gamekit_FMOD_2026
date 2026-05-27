@@ -173,7 +173,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3ecd8788-22e0-40b0-9697-3d629a5ec6e9}">
 		<property name="volume">
-			<value>3</value>
+			<value>1.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -201,6 +201,9 @@
 		<property name="volume">
 			<value>10</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{7f8aa59f-e1af-4fe0-bcaa-3faa80dcc048}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{30f22613-bb83-4593-834a-eaea522a6396}</destination>
 		</relationship>
@@ -272,7 +275,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4a090340-fa04-4aaa-88b3-d941c4ea5473}">
 		<property name="volume">
-			<value>8</value>
+			<value>4</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>
@@ -325,6 +328,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d98be4b5-4405-497a-8af0-0df0d18b9215}" />
+	<object class="FadeCurve" id="{7f8aa59f-e1af-4fe0-bcaa-3faa80dcc048}">
+		<relationship name="startPoint">
+			<destination>{66c6c422-9aa9-420a-ad18-ac0ac2bcd752}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{527bf170-df51-4c85-83da-7b21b93be875}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{5b5b7bbf-e419-456f-afa2-10817adacf94}">
 		<relationship name="effects">
 			<destination>{a8da834e-4dc1-4c28-820b-5c41132bca21}</destination>
@@ -359,6 +370,7 @@
 	<object class="MixerBusEffectChain" id="{894a62a8-2154-4d4d-9d23-63ce005bee69}">
 		<relationship name="effects">
 			<destination>{7adab88b-3ef5-4793-9401-5387904f8020}</destination>
+			<destination>{14088bbf-44bf-4a98-a553-1f16eab6bdaa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1f394e59-8068-4dac-87ef-ea45e61d0c51}" />
@@ -423,25 +435,44 @@
 	<object class="MixerBusFader" id="{52333d70-1737-4db4-8eeb-1fada45f5c7f}" />
 	<object class="SFXReverbEffect" id="{8fa4550e-572b-4d0f-bfa9-1d31934503f9}">
 		<property name="decayTime">
-			<value>2900</value>
+			<value>11000</value>
 		</property>
 		<property name="earlyDelay">
-			<value>15</value>
+			<value>7</value>
 		</property>
 		<property name="lateDelay">
-			<value>22</value>
+			<value>11</value>
 		</property>
 		<property name="HFDecayRatio">
-			<value>100</value>
-		</property>
-		<property name="highCut">
-			<value>20000</value>
-		</property>
-		<property name="earlyLateMix">
 			<value>59</value>
 		</property>
+		<property name="highCut">
+			<value>7800</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>87</value>
+		</property>
 		<property name="wetLevel">
-			<value>-11.3000002</value>
+			<value>0.5</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{66c6c422-9aa9-420a-ad18-ac0ac2bcd752}">
+		<property name="position">
+			<value>7.5</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{527bf170-df51-4c85-83da-7b21b93be875}">
+		<property name="position">
+			<value>8</value>
+		</property>
+		<property name="value">
+			<value>0</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{a8da834e-4dc1-4c28-820b-5c41132bca21}" />
@@ -465,7 +496,7 @@
 			<value>59</value>
 		</property>
 		<property name="wetLevel">
-			<value>-11.3000002</value>
+			<value>5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{86b04418-ce87-4c91-8c2a-16110517de30}">
@@ -526,4 +557,27 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{7adab88b-3ef5-4793-9401-5387904f8020}" />
+	<object class="SFXReverbEffect" id="{14088bbf-44bf-4a98-a553-1f16eab6bdaa}">
+		<property name="decayTime">
+			<value>15000</value>
+		</property>
+		<property name="earlyDelay">
+			<value>15</value>
+		</property>
+		<property name="lateDelay">
+			<value>22</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>100</value>
+		</property>
+		<property name="highCut">
+			<value>20000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>59</value>
+		</property>
+		<property name="wetLevel">
+			<value>-1</value>
+		</property>
+	</object>
 </objects>

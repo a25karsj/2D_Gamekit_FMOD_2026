@@ -111,6 +111,9 @@
 		<property name="volume">
 			<value>10</value>
 		</property>
+		<property name="pitch">
+			<value>-12</value>
+		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{156f9e1a-8629-405d-9299-17be8b9b8a20}</destination>
 		</relationship>
@@ -155,6 +158,9 @@
 		</property>
 		<property name="volume">
 			<value>10</value>
+		</property>
+		<property name="pitch">
+			<value>-13</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{e77d4055-6a24-4f30-95a5-378ce7bf3e2f}</destination>

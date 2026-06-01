@@ -79,7 +79,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{e34f7c2c-b9b9-4ff5-af0f-c99df341626a}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-26</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{108160f8-6c51-4641-9f08-6a809c23418f}</destination>
@@ -110,7 +110,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{a0721728-bac5-4ca8-8a75-2eb29c4320e1}">
 		<property name="volume">
-			<value>6.5</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -146,6 +146,7 @@
 			<destination>{6fea6689-9f9b-49e1-a044-7029c5492be5}</destination>
 			<destination>{89cca94b-42eb-4598-9cbc-04c9d6da7dec}</destination>
 			<destination>{75eb5a5c-99af-4d71-b36f-3e426a43f2c6}</destination>
+			<destination>{9724252f-927a-4020-a341-f0a673c85ce4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{99aa2a20-294b-4c45-a383-e8bc7738be2d}" />
@@ -185,6 +186,20 @@
 	<object class="ChorusEffect" id="{75eb5a5c-99af-4d71-b36f-3e426a43f2c6}">
 		<property name="rate">
 			<value>0.340000004</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{9724252f-927a-4020-a341-f0a673c85ce4}">
+		<property name="ratio">
+			<value>4.9000001</value>
+		</property>
+		<property name="attackTime">
+			<value>62</value>
+		</property>
+		<property name="releaseTime">
+			<value>4700</value>
+		</property>
+		<property name="gain">
+			<value>-2.5</value>
 		</property>
 	</object>
 </objects>

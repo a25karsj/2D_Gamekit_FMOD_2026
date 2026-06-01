@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1b2e2a94-2b44-4b17-8a3f-6c5ce69539a8}">
+		<property name="note">
+			<value>A one-shot sound that plays when you click in the game menu.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>

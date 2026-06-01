@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b1156121-f4e9-4751-9d67-4bcc07883585}">
+		<property name="note">
+			<value>A one-shot sound for when you click the start button.</value>
+		</property>
 		<property name="color">
 			<value>Cyan Light 2</value>
 		</property>

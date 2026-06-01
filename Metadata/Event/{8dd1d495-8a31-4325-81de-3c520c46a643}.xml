@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8dd1d495-8a31-4325-81de-3c520c46a643}">
 		<property name="note">
-			<value>The walking sound for the boss</value>
+			<value>The walking sound for the boss that plays during the cutscene in scene 5.</value>
 		</property>
 		<property name="color">
 			<value>Blue Light 2</value>

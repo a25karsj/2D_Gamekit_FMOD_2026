@@ -2,7 +2,10 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c8f3f5d5-0009-4886-9e44-af62fe1f3cc1}">
 		<property name="note">
-			<value>An oneshot/feedback sound that plays when you collect one of the keys.</value>
+			<value>An oneshot sound that plays during the boss cutscene when its eyes start glowing.</value>
+		</property>
+		<property name="color">
+			<value>Blue</value>
 		</property>
 		<property name="name">
 			<value>ping_sound_cutscene 2</value>

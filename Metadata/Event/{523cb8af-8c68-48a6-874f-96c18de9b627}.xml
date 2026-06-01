@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{523cb8af-8c68-48a6-874f-96c18de9b627}">
 		<property name="note">
-			<value>A oneshot sound for when the stone door opens.
+			<value>A sound event for when the boss door opens during the cutscene in scene 5.
 </value>
 		</property>
 		<property name="color">

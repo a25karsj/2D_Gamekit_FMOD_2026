@@ -4,6 +4,9 @@
 		<property name="note">
 			<value>An oneshot/feedback sound that plays when you collect one of the keys.</value>
 		</property>
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>ping_sound_cutscene</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d9519ba5-f4b8-4044-ae78-a8de7ddb5e7c}">
+		<property name="note">
+			<value>A oneshot sound that plays when the enemy spitters or the chompers die.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{2838a68b-2f8b-4630-8e47-16ba697ba88f}">
+		<property name="name">
+			<value>Boss_shield_OneShot</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{14f54dda-157c-4200-86af-e17d230838ff}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{150430c4-a0f0-4f24-84ae-b077803fdd8f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{1ecedabe-f618-489b-ad5b-49712a3611cd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{14f54dda-157c-4200-86af-e17d230838ff}">
+		<relationship name="effects">
+			<destination>{25ff80f1-8666-4d85-bc74-d3eedc904177}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{150430c4-a0f0-4f24-84ae-b077803fdd8f}" />
+	<object class="MixerBusFader" id="{25ff80f1-8666-4d85-bc74-d3eedc904177}" />
+</objects>

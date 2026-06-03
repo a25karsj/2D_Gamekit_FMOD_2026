@@ -33,10 +33,12 @@
 			<destination>{32cad95d-06c2-44bb-b373-9a2becadf7f9}</destination>
 			<destination>{3d4e8b00-663b-481b-9cc5-94464b302b69}</destination>
 			<destination>{c4884fad-a33e-4286-9111-fffbf8c7970d}</destination>
+			<destination>{2ace2e31-6820-4b6e-9a51-61b3efe830fe}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{ce439b88-8fc2-4ac4-96b7-3314d4522c6b}</destination>
 			<destination>{8f6fdff4-ac80-4c88-a09b-ea44a549857a}</destination>
+			<destination>{43dd3be6-5b71-4d2b-8570-ecdcc5c421cc}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{4aaf819a-1cce-4984-8a5c-5acbb76c6b71}" />
@@ -59,7 +61,7 @@
 			<value>decayTime</value>
 		</property>
 		<property name="value">
-			<value>2900</value>
+			<value>20000</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{945840a1-dd06-445e-8c8a-89d9bfd09778}</destination>
@@ -186,6 +188,17 @@
 			<destination>{945840a1-dd06-445e-8c8a-89d9bfd09778}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{2ace2e31-6820-4b6e-9a51-61b3efe830fe}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>-2</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{92a5fafc-3519-438a-9f52-380164bb3629}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{ce439b88-8fc2-4ac4-96b7-3314d4522c6b}">
 		<relationship name="mixerStrip">
 			<destination>{af78be72-7d6e-423d-abe9-e8772e3b4e02}</destination>
@@ -194,6 +207,11 @@
 	<object class="SnapshotTrack" id="{8f6fdff4-ac80-4c88-a09b-ea44a549857a}">
 		<relationship name="mixerStrip">
 			<destination>{d12663cc-385c-43ef-aabb-8d51dbf42c1a}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{43dd3be6-5b71-4d2b-8570-ecdcc5c421cc}">
+		<relationship name="mixerStrip">
+			<destination>{92a5fafc-3519-438a-9f52-380164bb3629}</destination>
 		</relationship>
 	</object>
 </objects>

@@ -99,8 +99,11 @@
 	<object class="MixerBusPanner" id="{e98b7304-8c98-420f-af05-507f980112a8}" />
 	<object class="SingleSound" id="{f432051b-46a6-4e08-8d2f-a320adf2d3f8}">
 		<property name="length">
-			<value>20</value>
+			<value>2</value>
 		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{2cc83fe3-7b5c-40ce-8649-81512199b1eb}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{4c4eb938-df5e-411f-8567-7bd5c2651cfd}</destination>
 		</relationship>
@@ -126,6 +129,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{2fdc4a99-3583-4bc3-9772-fb12156628f1}" />
 	<object class="MixerBusFader" id="{e67736c5-87f6-4460-97ac-58226cbca8d9}" />
+	<object class="FadeCurve" id="{2cc83fe3-7b5c-40ce-8649-81512199b1eb}">
+		<relationship name="startPoint">
+			<destination>{e0901a6c-36b9-4df4-8259-cf42d68cd408}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{8d182ddb-01c4-488a-b24a-98c8a4a61288}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{e64212dc-d8e9-4fb9-a565-81ce73ca3c2a}">
 		<relationship name="effects">
 			<destination>{c56d3d62-1d3a-4339-a249-2fd9693d958b}</destination>
@@ -135,6 +146,25 @@
 	</object>
 	<object class="MixerBusPanner" id="{7a5f747c-bd9c-4359-9717-0aa7015477b7}" />
 	<object class="MixerBusFader" id="{c8e2ab02-a9da-4c19-a12b-b4bcf23ebeeb}" />
+	<object class="AutomationPoint" id="{e0901a6c-36b9-4df4-8259-cf42d68cd408}">
+		<property name="position">
+			<value>1.8</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{8d182ddb-01c4-488a-b24a-98c8a4a61288}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{c56d3d62-1d3a-4339-a249-2fd9693d958b}" />
 	<object class="SpatialiserEffect" id="{3b9366f2-d756-4695-aca8-c2646adc772b}" />
 	<object class="SFXReverbEffect" id="{0521e04e-8356-4bde-bfc4-5855cff66dcf}">
